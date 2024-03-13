@@ -1,1 +1,1 @@
-
+E1: Print hello world to the terminal console using printf();
