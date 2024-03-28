@@ -1,0 +1,116 @@
+/* Montserrat Font */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
+
+/* Body */
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Montserrat";
+}
+
+/* Input Box Container */
+
+#inputcontainer {
+  background-color: white;
+  width: 100%;
+  /*border-top: 1px solid rgb(182, 182, 182);*/
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+
+/* Input Box */
+
+#inp {
+  width: 100%;
+  text-indent: 10px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid rgb(182, 182, 182);
+  /*border-right: none;*/
+  transition: 0.2s all;
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+
+#inp:hover {
+  border: 1px solid gray;
+}
+
+#inp:focus {
+  border: 2px solid rgb(17, 180, 126);
+  /*outline: 1px solid rgb(17, 180, 126);*/
+  outline: none;
+  transition: 0.2s all;
+}
+
+/* Input Box & Submit Button Group*/
+
+#inputbox {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  height: 40px;
+  max-width: 1000px;
+}
+
+/* Submit Button */
+
+#submit {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid rgb(182, 182, 182);
+  border-left: none;
+  width: 50px;
+  color: gray;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s all;
+  font-size: 0px;
+}
+
+#submit:hover {
+  background-color: rgb(17, 180, 126);
+  border-color: rgb(17, 180, 126);
+  color: white;
+  transition: 0.2s all;
+}
+
+/*#submit:hover {
+  background-color: rgb(233, 233, 233);
+  transition: 0.2s all;
+}*/
+
+#submit:active {
+  background-color: rgb(17, 180, 126);
+  border-color: rgb(17, 180, 126);
+  color: white;
+  transition: 0.2s all;
+}
+
+#mem_text {
+  color: red;
+}
+
+#low_memory {
+  background-color: rgb(238, 238, 238);
+  border-left: 3px solid rgb(17, 180, 126);
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  text-indent: 10px;
+  line-height: 10px;
+  padding: 10px;
+  overflow: scroll;
+}
+
+#lowcontainer {
+  padding: 10px;
+  padding-top: 0px;
+  display: flex;
+  margin: auto;
+  overflow: scroll;
+  white-space: nowrap;
+}
