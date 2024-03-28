@@ -1,0 +1,23 @@
+{
+  "hellos": ["hey", "hello", "hi"],
+  "byes": ["bye", "goodbye", "fairwell", "cya", "go", "see", "you", "later"],
+  "detect": [
+    "are",
+    "who",
+    "when",
+    "how",
+    "why",
+    "is",
+    "can",
+    "am",
+    "will",
+    "where",
+    "how",
+    "do",
+    "whose",
+    "which",
+    "whom",
+    "what",
+    "did"
+  ]
+}
