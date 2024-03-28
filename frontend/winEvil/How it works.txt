@@ -1,0 +1,31 @@
+WinEvil when the website is opened starts a timer
+this timer resets when the mouse moves or is clicked
+it also checks for touchscreen presses. 
+After 8 minutes of inactivity the WinEvil.js will execute
+a function that will redirect to brbytes url that calls for 
+payload.txt which is executed as javascript. The brbytes url
+then self replicates creating essentially a forkbomb. The payload
+also checks for button presses such as ctrl,shift, and alt. when
+these keys are pressed they will open another tab of the embedded brbytes url.
+ 
+ So in theory the unsuspecting person will open the link
+ and see a loading screen. They will wait for the loading screen
+ to load and everytime their mouse moves or click the timer will reset
+ making it not execute the payload. Once the person gets bored of watching the
+ loading screen they may leave their computer to do other stuff
+ while it loads being curious as to what it will load. Once it is detected
+ that the person is inactive for set number of minutes the tab will change to
+ a embedded brbytes tab which will self replicate indefinitely until there the device 
+ crashes. This may take a while to actually fully crash the device so it is hopeful that 
+ the person is not on the device during the execution to prevent interference. 
+ This is why the loading screen waits till they are inactive or away from their device. 
+ So by the time they get back it will be to laggy to stop the process or the system
+ will be crashed completely.
+ The self replication rate can be increased or decreased
+ adding time between the tab opening proves to be more effective
+ at crashing and causing damage due to the tabs having enough time to fully load. However this
+ makes the program easy to stop if the person is at the device since they can close all the tabs 
+ due to no lag stopping them from doing so. I currently have the loop set without a timing
+ so the tabs do not fully load due to how quick the tabs are being opened
+ this is so the device can be recovered. If the device is overwhelmed and freezes
+ wait till the battery dies and re-install the browser you are using if necessary.
