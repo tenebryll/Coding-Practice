@@ -1,0 +1,10 @@
+Date,Food,Type,Taste,Calories, Carbs(g),Proteins(g),Fats(g)
+01/01/2023(8:29 PM),Waffles,breakfast,sweet,82,9,2.2,4
+01/01/2023(01:00 PM),Grilledcheese,lunch,cheesy,378,27.9,8.9,13.1
+01/01/2023(11:04 PM),Pizza,dinner,cheesy,284,36,12,10
+01/02/2023(2:07 AM),Pancakes,breakfast,buttery,64,8,1.8,2.7
+01/02/2023(12:01 AM),Hamburger,lunch,smokey,354,29,20,17
+01/02/2023(4:00 PM),Steak,dinner,smokey,679,0,62,48
+01/03/2023(4:27 AM),Oatmeal,breakfast,salty,158,27,6,3.2
+01/03/2023(8:09 AM),Chicken Nuggets,lunch,fried,185,2.8,3.1,4
+01/03/2023(6:18 PM),Salmon,dinner,smokey,412,0,40,27
