@@ -4,7 +4,7 @@ Purpose: Calculate BMI based on input
 Date: October 6, 2023
 */
 import java.util.Scanner;
-class BMICalculator {
+public class Main {
   public static double bmi(double height, double weight){return (weight/(height*height))*703;}
   public static String weightClass(double height, double weight){
    double bmi = bmi(height,weight);
