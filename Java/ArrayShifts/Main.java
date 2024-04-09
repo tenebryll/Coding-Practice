@@ -4,7 +4,7 @@
 *@since: 2024-1-22
 *Shifting Arrays with functions
 */
-class ArrayShifts {
+public class Main {
   public static boolean atLeastOneOdd(int[] array){
     for(int i = 0; i < array.length; i++){
       if(array[i] % 2 == 1){return true;}
