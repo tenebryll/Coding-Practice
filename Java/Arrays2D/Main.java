@@ -3,7 +3,7 @@
 @Since 2/29/24
 @Purpose Messing with 2D arrays.
 */
-public class Arrays2D {
+public class Main {
 	public static int sum(int[][] array){
 		int sum = 0;
 		for(int x = 0; x < array.length; x++ ){
