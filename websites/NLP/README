@@ -1,2 +1,0 @@
-This was an old unfinished project of mine that was intended to be turn into a basic ai chatbot.
-Sadly it never became such; however, the input does undergo nlp for the bag of words methodology. The input is outputed in tokenized format to the developer console.
