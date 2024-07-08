@@ -1,4 +1,4 @@
-;Functionality(Spams "Lobster" until Segmentation fault)
+;Functionality(Spams "Lobster" until Segmentation fault in a non-optimized and inconvenient way because why not?)
 
 ;ShellCode
 ;Raw hex:4831DBB30053B32053B37353B37253B36553B37453B37353B36253B36F53B34C534889E64831C0FEC04831FF40FEC74831D2B2430F05EBC84831C0043C4030FF0F05
