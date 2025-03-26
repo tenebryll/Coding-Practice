@@ -45,7 +45,3 @@ int main(void) {
 	parse_function(file_contents, file_size);
   	return 0;
 }
-/*
-TODO
-Add capital to lowercase conversions
-*/
